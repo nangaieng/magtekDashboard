@@ -74,7 +74,7 @@ const PIPES = [
 const NB_THEME_PROVIDERS = [
   ...NbThemeModule.forRoot(
     {
-      name: 'cosmic',
+      name: 'default', //set the default theme as root. 
     },
     [ DEFAULT_THEME, COSMIC_THEME ],
   ).providers,

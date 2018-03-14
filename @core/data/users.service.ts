@@ -9,11 +9,11 @@ export class UserService {
 
   private users = {
     nick: { name: 'Daniel Magesa', picture: 'assets/images/danielm.png' },
-    eva: { name: 'Eva Moor', picture: 'assets/images/eva.png' },
-    jack: { name: 'Jack Williams', picture: 'assets/images/jack.png' },
-    lee: { name: 'Lee Wong', picture: 'assets/images/lee.png' },
-    alan: { name: 'Alan Thompson', picture: 'assets/images/alan.png' },
-    kate: { name: 'Kate Martinez', picture: 'assets/images/kate.png' },
+    eva: { name: 'Amina Saidi', picture: 'assets/images/eva.png' },
+    jack: { name: 'John Mwakitalima', picture: 'assets/images/jack.png' },
+    lee: { name: 'Idrisa Shelukindo', picture: 'assets/images/lee.png' },
+    alan: { name: 'Doris Mushi', picture: 'assets/images/alan.png' },
+    kate: { name: 'Adam Mollel', picture: 'assets/images/kate.png' },
   };
 
   private userArray: any[];

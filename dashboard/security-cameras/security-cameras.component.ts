@@ -8,16 +8,16 @@ import { Component } from '@angular/core';
 export class SecurityCamerasComponent {
 
   cameras: any[] = [{
-    title: 'Camera #1',
+    title: 'Ilala - Kariakoo',
     source: 'assets/images/camera1.jpg',
   }, {
-    title: 'Camera #2',
+    title: 'Kinondoni - Msasani',
     source: 'assets/images/camera2.jpg',
   }, {
-    title: 'Camera #3',
+    title: 'Ubungo - Stendi',
     source: 'assets/images/camera3.jpg',
   }, {
-    title: 'Camera #4',
+    title: 'Temeke - Mbagala',
     source: 'assets/images/camera4.jpg',
   }];
 

@@ -47,6 +47,10 @@
         @include btn-hero-warning-gradient();
         @include btn-hero-warning-bevel-glow-shadow();
       }
+	   &.danger {
+        @include btn-hero-danger-gradient();
+        @include btn-hero-danger-bevel-glow-shadow();
+      }
     }
 
     &:hover {
@@ -64,6 +68,9 @@
         }
         &.warning {
           background-image: btn-hero-warning-light-gradient();
+        }
+		&.danger {
+          background-image: btn-hero-danger-light-gradient();
         }
       }
     }
@@ -102,7 +109,7 @@
     }
 
     .status {
-      font-size: 1rem;
+      font-size: 0.75rem;
       font-weight: nb-theme(font-weight-light);
       text-transform: uppercase;
       color: nb-theme(card-fg);

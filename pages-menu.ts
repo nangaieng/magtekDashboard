@@ -2,28 +2,32 @@ import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
   {
-    title: 'Dashibodi',
+    title: 'Dashboard(Nyumbani)',
     icon: 'nb-home',
     link: '/pages/dashboard',
     home: true,
   },
   {
-    title: 'Moja kwa Moja',
+    title: 'Live',
     icon: 'nb-audio',
 	link: '/pages/live'
   },
   {
-    title: 'Fomu',
+    title: 'Forms(Fomu)',
     icon: 'nb-compose',
     children: [
       {
-        title: 'Riporti tatizo',
+        title: 'Wasilisha kero',
         link: '/pages/forms/inputs',
-      }
+      },
+	  {
+        title: 'Usajili',
+        link: '/pages/forms/layouts',
+      },
     ],
   },
   {
-    title: 'Ramani',
+    title: 'Maps(Ramani)',
     icon: 'nb-location',
     children: [
       {
@@ -33,39 +37,31 @@ export const MENU_ITEMS: NbMenuItem[] = [
     ],
   },
   {
-    title: 'Uchambuzi',
+    title: 'Analytics(Uchambuzi)',
     icon: 'nb-bar-chart',
     children: [
-      {
-        title: 'Takwimu za kanisa',
-        link: '/pages/charts/chartjs',
-      },
 	  {
-        title: 'Takwimu za chama',
+        title: 'Kero za wananchhi',
         link: '/pages/charts/chartjs',
       }
     ],
   },
   {
-    title: 'Vidokezo na maandishi',
+    title: 'Habari',
     icon: 'nb-title',
     children: [
-      {
-        title: 'Maandishi ya mahubiri',
-        link: '/pages/editors/tinymce',
-      },
 	  {
-        title: 'Vidokezo vya chama',
+        title: 'Matangazo',
         link: '/pages/editors/tinymce',
       }
     ],
   },
   {
-    title: 'Utawala',
+    title: 'Admin(Utawala)',
     icon: 'nb-tables',
     children: [
       {
-        title: 'Meza ya watumiaji',
+        title: 'Wanachama',
         link: '/pages/tables/smart-table',
       },
     ],
